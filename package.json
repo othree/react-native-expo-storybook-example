@@ -1,8 +1,9 @@
 {
   "name": "react-native-expo-storybook-example",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "src/index.js",
   "files": [
+    "app.json",
     "src"
   ],
   "author": {
