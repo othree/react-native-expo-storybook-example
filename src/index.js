@@ -1,6 +1,6 @@
 import Button from './components/Button';
-import DateTime from './componets/DateTime';
-import WebView from './componets/WebView';
+import DateTime from './components/DateTime';
+import WebView from './components/WebView';
 
 export {
   Button,
