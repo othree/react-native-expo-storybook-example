@@ -1,0 +1,40 @@
+{
+  "name": "react-native-expo-storybook-example",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "author": {
+    "name": "othree",
+    "url": "https://github.com/othree"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject",
+    "storybook": "start-storybook -p 7007"
+  },
+  "dependencies": {
+    "@react-native-community/datetimepicker": "^2.2.2",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "expo": "~36.0.0",
+    "react": "~16.9.0",
+    "react-dom": "~16.9.0",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-36.0.0.tar.gz",
+    "react-native-web": "~0.11.7",
+    "react-native-webview": "^8.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@storybook/addon-actions": "^5.3.13",
+    "@storybook/addon-links": "^5.3.13",
+    "@storybook/addons": "^5.3.13",
+    "@storybook/react-native": "^5.3.13",
+    "@storybook/react-native-server": "^5.3.13",
+    "babel-loader": "^8.0.6",
+    "babel-preset-expo": "~8.0.0"
+  },
+  "private": true
+}
